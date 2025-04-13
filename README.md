@@ -1,33 +1,32 @@
-# Calculation-System-for-Geometric-Properties
-# 🧮 Sistema de Cálculo de Propriedades Geométricas
+# 🧮 Geometric Properties Calculation System
 
-Este é um projeto desenvolvido para a disciplina de Programação de Computadores 1, cujo objetivo é implementar um sistema em linguagem C capaz de calcular propriedades como área e perímetro de figuras geométricas (círculo, retângulo e triângulo).
+This project was developed for the "Computer Programming 1" course. Its goal is to implement a C program capable of calculating geometric properties such as **area and perimeter** of various shapes: **circle, rectangle, and triangle**.
 
-## 📚 Objetivo
+## 📚 Objective
 
-Consolidar conceitos de programação em C, desde estruturas básicas até o uso de ponteiros, structs, alocação dinâmica de memória, funções e recursão.
+To consolidate core programming concepts in C, from fundamentals to advanced topics like **pointers**, **structs**, **dynamic memory allocation**, **functions**, and **recursion**.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- Cálculo de área e perímetro de:
-  - Círculo
-  - Retângulo
-  - Triângulo
-- Interface de menu interativo com entrada e saída de dados
-- Execução contínua até que o usuário deseje sair
-- Vetores e matrizes para armazenar os dados das figuras
-- Manipulação de strings para identificação das figuras
-- Estrutura `struct Figura` para organização dos dados
-- Vetor dinâmico de figuras
-- Validação de entradas (evita números negativos)
-- Relatório final com todos os dados calculados
-- Utilização de ponteiros e alocação dinâmica
-- Cálculo recursivo de fatorial (usado para figura com n lados)
+- Area and perimeter calculation for:
+  - Circle
+  - Rectangle
+  - Triangle
+- Interactive menu interface for input/output
+- Runs continuously until the user chooses to exit
+- Arrays and matrices used to store shape data
+- String manipulation for labeling shapes
+- `struct Figura` used to organize figure information
+- Dynamic vector of multiple shapes
+- Input validation (prevents negative values)
+- Final report displaying all processed shapes and results
+- Use of pointers and dynamic memory management
+- Recursive factorial function (used for figure with n sides)
 
-## 🛠️ Como compilar
+## 🛠️ How to Compile
 
-Você pode compilar o projeto usando `gcc`:
+You can compile the project using `gcc`:
 
 ```bash
-gcc main.c -o sistema_geometrico
-./sistema_geometrico
+gcc main.c -o geometric_system
+./geometric_system
